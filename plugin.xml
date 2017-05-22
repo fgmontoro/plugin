@@ -3,7 +3,7 @@
 	<name>plugin-linterna</name>
 
 	<js-module name="plugin-linterna" src="www/plugin-linterna.js">
-		<clobbers target="cordova.plugins.plugin-linterna" />
+		<clobbers target="cordova.plugins.plugin_linterna" />
 	</js-module>
 
 	<platform name="android">
@@ -15,7 +15,7 @@
 		<config-file parent="/*" target="AndroidManifest.xml">
 
 		</config-file>
-		<source-file src="src/android/plugin-linterna.java" target-dir="src/plugin-linternaId/plugin-linterna" />
+		<source-file src="src/android/Toast.java" target-dir="src/plugin-linternaId/plugin-linterna" />
 	</platform>
 
 </plugin>
