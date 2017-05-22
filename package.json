@@ -1,9 +1,9 @@
 {
-  "name": "plugin-linterna",
+  "name": "mi_plugin",
   "version": "0.0.1",
-  "description": "Activar linterna",
+  "description": "",
   "cordova": {
-    "id": "plugin-linternaId",
+    "id": "mi_plugin-linternaId",
     "platforms": [
       "android"
     ]

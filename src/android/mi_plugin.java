@@ -21,7 +21,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class Toast extends CordovaPlugin {
+public class mi_plugin extends CordovaPlugin {
 
   private static final String ACTION_SHOW_EVENT = "show";
   private static final String ACTION_HIDE_EVENT = "hide";
