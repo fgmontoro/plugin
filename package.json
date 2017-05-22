@@ -1,0 +1,17 @@
+{
+  "name": "plugin-linterna",
+  "version": "0.0.1",
+  "description": "Activar linterna",
+  "cordova": {
+    "id": "plugin-linternaId",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}
