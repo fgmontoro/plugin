@@ -1,2 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="mi_plugin-linternaId" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>mi_plugin</name><js-module name="mi_plugin" src="www/mi_plugin.js"><clobbers target="cordova.plugins.mi_plugin" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="mi_plugin"><param name="android-package" value="mi_plugin-linternaId.mi_plugin" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/mi_plugin.java" target-dir="src/mi_plugin-linternaId/mi_plugin" /></platform></plugin>
+<plugin id="plugin_bluetooth" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>plugin_bluetooth</name>
+	<js-module name="plugin_bluetooth" src="www/plugin_bluetooth.js">
+		<clobbers target="cordova.plugins.plugin_bluetooth" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="plugin_bluetooth">
+				<param name="android-package" value="plugin_bluetooth.plugin_bluetooth" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml">
+
+		</config-file>
+		<source-file src="src/android/plugin_bluetooth.java" target-dir="src/plugin_bluetooth/plugin_bluetooth" />
+
+		<framework src="src/android/plugin_bluetooth.gradle" custom="true" type="gradleReference" />
+    	<resource-file src="complementos/ViaMobile-release.aar" target="libs/ViaMobile-release.aar" />
+	</platform>
+</plugin>

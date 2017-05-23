@@ -1,17 +1,57 @@
 {
-  "name": "mi_plugin",
-  "version": "0.0.1",
-  "description": "",
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\francisco.gmontoro.BABEL-SI\\Documents\\Proyectos Ionic\\plugins\\plugin_bluetooth",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\francisco.gmontoro.BABEL-SI\\Documents\\Proyectos Ionic\\plugins\\plugin_bluetooth",
+        "spec": "C:\\Users\\francisco.gmontoro.BABEL-SI\\Documents\\Proyectos Ionic\\plugins\\plugin_bluetooth",
+        "type": "directory"
+      },
+      "C:\\Users\\francisco.gmontoro.BABEL-SI\\Documents\\Proyectos Ionic\\arquetipoApp\\node_modules"
+    ]
+  ],
+  "_from": "..\\plugins\\plugin_bluetooth",
+  "_id": "plugin_bluetooth@0.0.1",
+  "_inCache": true,
+  "_location": "/plugin_bluetooth",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\francisco.gmontoro.BABEL-SI\\Documents\\Proyectos Ionic\\plugins\\plugin_bluetooth",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\francisco.gmontoro.BABEL-SI\\Documents\\Proyectos Ionic\\plugins\\plugin_bluetooth",
+    "spec": "C:\\Users\\francisco.gmontoro.BABEL-SI\\Documents\\Proyectos Ionic\\plugins\\plugin_bluetooth",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:..\\plugins\\plugin_bluetooth",
+  "_shasum": "33c0a0a3da557d2418418fd9af688901c24ac1dc",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\francisco.gmontoro.BABEL-SI\\Documents\\Proyectos Ionic\\plugins\\plugin_bluetooth",
+  "_where": "C:\\Users\\francisco.gmontoro.BABEL-SI\\Documents\\Proyectos Ionic\\arquetipoApp\\node_modules",
+  "author": "",
   "cordova": {
-    "id": "mi_plugin-linternaId",
+    "id": "plugin_bluetooth",
     "platforms": [
       "android"
     ]
   },
+  "dependencies": {},
+  "devDependencies": {},
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "name": "plugin_bluetooth",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "0.0.1"
 }
