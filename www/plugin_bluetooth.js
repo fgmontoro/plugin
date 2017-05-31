@@ -1,9 +1,17 @@
 var exec = require('cordova/exec');
 
-exports.coolMethod = function(arg0, success, error) {
-    exec(success, error, "plugin_bluetooth", "coolMethod", [arg0]);
+exports.getBTStatus = function(success, error) {
+    exec(success, error, "plugin_bluetooth", "getBTStatus");
 };
 
-exports.miMetodo = function(arg0, success, error) {
-    exec(success, error, "plugin_bluetooth", "miMetodo", [arg0]);
+exports.bindBT = function(success, error) {
+    exec(success, error, "plugin_bluetooth", "bindBT");
+};
+
+exports.unBindBT = function(success, error) {
+    exec(success, error, "plugin_bluetooth", "unBindBT");
+};
+
+exports.start = function(success, error) {
+    exec(success, error, "plugin_bluetooth", "start");
 };

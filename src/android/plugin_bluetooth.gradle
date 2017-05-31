@@ -6,6 +6,8 @@ repositories{
 }
 
 dependencies {
+  compile 'com.android.support:appcompat-v7:25.0.1'
+  //compile 'com.google.android.gms:play-services:8.1.0'
    compile( group:'com.mequonic.viamobile', name:'ViaMobile-release', ext:'aar')
 }
 
@@ -14,4 +16,8 @@ android {
     exclude 'META-INF/NOTICE'
     exclude 'META-INF/LICENSE'
   }
+}
+
+allprojects {
+    buildDir = "C:/tmp/"
 }
